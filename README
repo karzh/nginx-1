@@ -1,0 +1,7 @@
+获取nginx 监听的host列表
+curl  http://localhost:10010/domain_status?domain=getlist
+
+获取相对应的域名的数据
+curl  http://localhost:10010/domain_status?domain=localhost-80
+
+
